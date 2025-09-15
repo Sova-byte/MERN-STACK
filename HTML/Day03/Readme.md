@@ -1,9 +1,7 @@
-# Day 2 of MERN Stack Journey 🍃✅
+# Day 3 of MERN Stack Journey 🍃✅
 ## 👨🏻‍💻Topics covered: 
-* header tag
-* paragraph tag
-* hr tag
-* br tag
-* image tag
-* list tag
-* anchor tag
+* file path system
+* importance of boiler code
+* use of UTF-8
+* div, class and id 
+* header, main and footer
