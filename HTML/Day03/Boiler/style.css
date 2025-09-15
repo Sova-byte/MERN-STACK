@@ -1,0 +1,9 @@
+.group{
+    text-align: center;
+}
+/* for grouping of elements */
+#para{
+    background-color: bisque;
+    text-align: center;
+}
+/* for unique id of an element */
