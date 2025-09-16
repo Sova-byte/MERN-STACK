@@ -1,7 +1,9 @@
-# Day 1 of  MERN Stack Journey 🍃✅
-💻Topics covered:
-* Internet
-* IP Address
-* DNS
-* Routers/Switches
-* Sharing of Data
+# Day 1 of MERN Stack Journey 🍃✅
+## 👨🏻‍💻Topics covered: 
+* header tag
+* paragraph tag
+* hr tag
+* br tag
+* image tag
+* list tag
+* anchor tag
