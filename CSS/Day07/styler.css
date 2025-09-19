@@ -1,0 +1,26 @@
+span{
+    background-color:antiquewhite;
+    margin: 40px; /*Only horizontal margin can apply*/
+    padding: 10px; /*Only horizontal margin can apply*/
+}
+
+h1{
+    background-color: #b364fc;
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    padding: 10px;
+    border: solid black 10px;
+    box-sizing: content-box; /* it will include height and width of content */
+    
+}
+h2{
+    background-color: aqua;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid black 10px;
+    box-sizing: border-box; /* it will include height and width of border */
+}

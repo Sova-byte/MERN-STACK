@@ -13,7 +13,7 @@
             <table>
                 <tr>
                     <td>
-                        <a href="../index.html"><img src="../../Images/tagtutor.png" alt="logo pic" width="200px"></a>
+                        <a href="./index.html"><img src="./Images/tagtutor.png" alt="logo pic" width="200px"></a>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -205,25 +205,25 @@
                     <td></td>
                     <td></td>
                     </td>
-                    <td><a href="../index.html">Home</a></td>
+                    <td><a href="./index.html">Home</a></td>
                     <td></td>
                     <td></td>
                     <td>|</td>
                     <td></td>
                     <td></td>
-                    <td><a href="../tag.html">Contents</a></td>
+                    <td><a href="./tag.html">Contents</a></td>
                     <td></td>
                     <td></td>
                     <td>|</td>
                     <td></td>
                     <td></td>
-                    <td><a href="../about.htm">About</a></td>
+                    <td><a href="./about.htm">About</a></td>
                     <td></td>
                     <td></td>
                     <td>|</td>
                     <td></td>
                     <td></td>
-                    <td><a href="../contact.htm">Connect</a></td>
+                    <td><a href="./contact.htm">Connect</a></td>
                 </tr>
             </table>
         </div>
@@ -232,12 +232,85 @@
 
     <main>
         <div>
-            
-            <a href="../tag.html">Prev</a>
+            <h1>HTML Forms - User Input Magic 📝</h1>
+            <p><strong>🌐 The Basics: Why Forms Are Interaction Central</strong><br>
+                Forms let users talk back to your site—sign-ups, searches, feedback, anything interactive! They're like
+                digital questionnaires: collect data, send it to servers. The form tag wraps it all, with inputs for
+                different data types. Master forms = user-friendly sites that convert! 🚀</p>
+            <img src="./Images/form.png" alt="" width="600px" height="300px"><br>
+            <strong>📋 Form Tag: form (The Data Collector)</strong>
+            <ul>
+                <li><strong>What It Does: </strong>Container for all inputs—handles submission to server or JS.</li>
+                <li><strong>Core Attributes:</strong>
+                    <ul>
+                        <li>action="/submit" → Where data goes (URL or empty for JS)</li>
+                        <li>method="POST" → How data sends (POST = secure, GET = URL params)</li>
+                        <li>enctype="multipart/form-data" → For file uploads</li>
+                    </ul>
+                </li>
+            </ul>
+            <hr>
+            <img src="./Images/label.png" alt="" width="600px" height="300px"><br>
+            <strong>🏷️ Label Tag: label (The Helpful Guide)</strong>
+            <ul>
+                <li><strong>What It Does: </strong>Descriptive text for inputs—clicking label focuses input (UX win!).
+                </li>
+                <li><strong>Connection Types:</strong>
+                    <ul>
+                        <li>for="input-id" → Links by ID (most reliable)</li>
+                        <li>Wrap input inside label (implicit connection)</li>
+                    </ul>
+                </li>
+                <li><strong>Why Essential:</strong> Screen readers announce labels—accessibility must-have!</li>
+            </ul>
+            <hr>
+            <img src="./Images/input.png" alt="" width="600px" height="300px"><br>
+            <strong>⌨️ Input Tag: input (The Versatile Field)</strong> 
+            <ul>
+                <li><strong>What It Does:</strong> Single-line input for text, passwords, checkboxes—everything!</li>
+                <li><strong>Core Structures:</strong> &lt;input type="text" name="username" required&gt;</li>
+                <li><strong>Key Attributes:</strong>
+                <ul>
+                    <li><strong>type →</strong>Field type (text, email, password, checkbox, radio, file, etc.)</li>
+                    <li><strong>name →</strong>Data key (what server receives: username=john)</li>
+                    <li><strong> value →</strong> Default text</li>
+                    <li><strong>placeholder →</strong>Gray hint text</li>
+                    <li><strong>required →</strong>Must fill (browser validation)</li>
+                </ul>
+                </li>
+            </ul>
+            <hr>
+            <img src="./Images/textarea.png" alt="" width="600px" height="300px"><br>
+            <strong>📝 Textarea Tag: textarea (The Multi-Line Story)</strong> 
+            <ul>
+                <li><strong>What It Does:</strong> Multi-line text input for messages, comments—resizable by default.</li>
+                <li><strong>Core Structures:</strong> &lt;textarea name="message" rows="4" cols="30"&gt;Default Text&lt;/textarea&gt;</li>
+                <li><strong>Key Attributes:</strong>
+                <ul>
+                    <li><strong>name →</strong>Server key (message=Hello world! )</li>
+                    <li><strong>rows →</strong>Height in lines (default:2)</li>
+                    <li><strong>cols →</strong>Width in characters (default: 20)</li>
+                    <li><strong>placeholder →</strong>Gray hint text</li>
+                    <li><strong>required →</strong>Must fill (browser validation)</li>
+                </ul>
+                </li>
+            </ul>
+            <p>For visual learners want to learn forms in a quick way checkout tutorial video given below for better understanding of this concept in HTML.</p>
+            <iframe src="https://youtube.com/embed/a4j9R_DvZ8M" frameborder="0" width="500px" height="300px"></iframe>
+            <table>
+                <tr>
+                    <td> <a href="./table.htm">
+                            <h1>⬅️ </h1>
+                        </a></td>
+                    <td> <a href="./media.htm">
+                            <h1>➡️</h1>
+                        </a></td>
+                </tr>
+            </table>
         </div>
     </main>
 
-    <footer></footer>
+    <footer>All Copyrights &copy; are reserved.</footer>
 </body>
 
 </html>

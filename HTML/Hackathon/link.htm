@@ -13,7 +13,7 @@
             <table>
                 <tr>
                     <td>
-                        <a href="./index.html"><img src="../Images/tagtutor.png" alt="logo pic" width="200px"></a>
+                        <a href="../index.html"><img src="./Images/tagtutor.png" alt="logo pic" width="200px"></a>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -232,24 +232,53 @@
 
     <main>
         <div>
-            <h2>CONTENTS📝</h2>
-            <p>✅ <a href="./Contents/structure.htm">Structure</a></p>
-            <p>✅ <a href="./Contents/text.htm">Text</a></p>
-            <p>✅ <a href="./Contents/list.htm">Lists</a></p>
-            <p>✅ <a href="./Contents/link.htm">Links</a></p>
-            <p>✅ <a href="./Contents/image.htm">Images</a></p>
-            <p>✅ <a href="./Contents/table.htm">Tables</a></p>
-            <p>✅ <a href="./Contents/form.htm">Forms</a></p>
-            <p>✅ <a href="./Contents/media.htm">Media</a></p>
+            <h1>HTML Links - Connecting the Web 🔗</h1>
+            <p><strong>🌐 The Basics: Why Links Are Magic</strong><br>
+            Links turn static pages into a web—literally! They let users jump between your pages, explore other sites, or dive into resources. The a tag is your portal gun: point it anywhere with href (hyper reference). Master this, and your site becomes navigable! 🚀
+            </p>
+            <img src="./Images/link.png" alt="" width="600px" height="300px"><br>
+            <strong>📄 Creating Links Between Your Pages (Internal Links)</strong>
+            <ul>
+                <li><strong>What It Does:</strong> Connects different pages on your site-like Home->About->Contact.</li>
+                <li><strong>Structure:</strong> &lt;a href="filename.html"&gt;Link Text&lt;/a&gt;</li>
+                <li><strong>Key Rules:</strong>
+                <ul>
+                    <li>Use <strong>relative paths</strong>for same sites (no full URL).</li>
+                    <li>Same folder: href="about.html"</li>
+                    <li>Subfolder: href="pages/contact.html"</li>
+                    <li>Parent folder: href="../index.html" (up one level)</li>
+                </ul></li>
             </ul>
-
-            <h2>Inroduction</h2>
-            <p></p>
-            <a href="./index.html">Back to previous page</a>
+            <hr>
+            <strong>🌍 Linking to Other Sites (External Links)</strong>
+            <ul>
+                <li><strong>What It Does:</strong> Jumps to website outside yours-like linking to Google or a tutorial.</li>
+                <li><strong>Structure</strong> &lt;a href="https://full-url.com"&gt;Link Text&lt;/a&gt; (always use full HTTPS URL)</li>
+                <li><strong>Best Practices:</strong> 
+                    <ul>
+                        <li>Target="_blank": Opens in new tab(don't trap users!).</li>
+                    </ul>
+                </li>
+            </ul>
+            <hr>
+            <strong>🎯 Link Types & Special Destinations</strong>
+            <ul>
+                <li><strong>To Email:</strong> &lt;aa href="mailto:hello@example.com"&gt;Email Me&lt;/a&gt; (opens email client).</li>
+                <li><strong>To Phone:</strong> &lt;a href="tel: +917854691548"&gt;Call Me&lt;/a&gt; (dials on mobile)</li>
+                <li><strong>To File Download:</strong> &lt;a href="resume.pdf" download&gt;Download Resume&lt;/a&gt;(forces save)</li>
+            </ul>
+            <p>Visual learners, this is for you! Dive deeper with a quick explainer video that breaks down text tags and many more. Watch below and level up. 🚀</p>
+            <iframe src="https://youtube.com/embed/GkZN_-HMCJ8" allowfullscreen width="500px" height="300px"></iframe><br>
+            <table>
+                <tr>
+                    <td> <a href="./list.htm"><h1>⬅️   </h1></a></td>
+                    <td> <a href="./image.htm"><h1>➡️</h1></a></td>
+                </tr>
+            </table>
         </div>
     </main>
 
-    <footer></footer>
+    <footer>All Copyrights &copy; are reserved.</footer>
 </body>
 
 </html>
