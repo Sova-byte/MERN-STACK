@@ -1,0 +1,11 @@
+h1{
+    background-color: aqua; /*last priority*/
+}
+
+.color{
+    background-color: yellow !important; /*2nd high priority*/
+}
+
+#A{
+    background-color: orange; /*high priority*/
+}

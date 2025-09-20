@@ -1,0 +1,19 @@
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#circle{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
