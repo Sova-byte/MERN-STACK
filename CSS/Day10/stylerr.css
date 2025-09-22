@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #baca44;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.container{
+    border: solid 5px #769656;
+    background-color: #baca44;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    padding: 15px;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.white{
+    background-color: #eeeed2;
+}
+.black{
+    background-color: black;
+}

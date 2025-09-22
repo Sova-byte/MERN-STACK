@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    background-color: white;
+    padding: 5px;
+    gap: 10px;
+}
+
+.box{
+    height: 300px;
+    width: 200px;
+    text-align: center;
+
+}
+.first{
+    background-color: yellowgreen;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.child{
+      height: 150px;
+}
+.one{
+    background-color:aqua;
+}
+.two{
+    background-color: burlywood;
+}
+
