@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0a0a0a ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.064);
+    border: 1px solid rgba(255, 255, 255, 0.064);
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+    width: 70%;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+td{
+    padding: 10px;
+    font-family: Doto;
+    color: red;
+    font-weight: 800;
+}
+
+.train_name{
+    padding-right: 50px;
+}
+
+table{
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: -100%;
+    }
+}
