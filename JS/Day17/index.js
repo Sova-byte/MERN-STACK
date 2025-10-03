@@ -81,7 +81,7 @@
 // let a = 0.1;
 // let b = 0.2;
 
-// let c = a+b;
+// let c = (a+b);
 
 // console.log(c);
 
@@ -204,17 +204,17 @@
 
 // || logical or
 
-let a = 0;
-let b = 20;
+// let a = 0;
+// let b = 20;
 
-console.log(a||b);
+// console.log(a||b);
 // &&: If first value is true, it will return the first value itself
 // If first value is false, it will return second
 
 // !=
-console.log(5!=5);
+// console.log(5!=5);
 
 
 // AND: & , | or
 
-console.log(2&5);
+// console.log(2&5);
