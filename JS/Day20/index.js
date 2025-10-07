@@ -14,8 +14,8 @@
 
 // let arr = [100,30,"Rohit",true];
 
-// // console.log(arr[2]);
-// // console.log(typeof arr);
+// console.log(arr[2]);
+// console.log(typeof arr);
 
 // // arr[1] = 90;
 // // console.log(arr);
@@ -106,6 +106,7 @@
 // const a = ["101","90","80","32","91"];
 // const arr = [10,"Rohit","Mohan",true];
 
+// sort() it sort based on characters so that it can sort every data
 // arr.sort();
 // console.log(arr);
 
@@ -136,6 +137,8 @@
 // console.log(arr[3][2][1]);
 
 
-const a = [10,309,"Rohit",9.3, true];
-a.name = "Moahn";
-console.log(a);
+// const a = [10,309,"Rohit",9.3, true];
+// a.name = "Moahn";
+// console.log(a);
+
+// Array is not array in Javascript it stored as object
